@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <description>Representa la región a la que pertenece el caso, según por medio del buzón de entrada con el cual se crea</description>
+    <inlineHelpText>Región del caso</inlineHelpText>
+    <label>Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gobierno</fullName>
+                <default>false</default>
+                <label>Gobierno</label>
+            </value>
+            <value>
+                <fullName>Bajio</fullName>
+                <default>false</default>
+                <label>Bajio</label>
+            </value>
+            <value>
+                <fullName>Metropolitana</fullName>
+                <default>false</default>
+                <label>Metropolitana</label>
+            </value>
+            <value>
+                <fullName>Centros Corporativos</fullName>
+                <default>false</default>
+                <label>Centros Corporativos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
